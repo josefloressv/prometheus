@@ -9,5 +9,5 @@ terraform apply -auto-approve
 # Connect to the instance
 ```bash
 chmod 400 tf-key-pair
-ssh -i tf-key-pair ec2-user@IPADDR
+ssh -i tf-key-pair.pem ec2-user@IPADDR
 ```
